@@ -11,7 +11,7 @@ npm run build
 
 cd public
 git add --all
-git commit -m"Publishing to master"
+git commit -am"Publishing to master"
 cd ..
 git push origin master
 
