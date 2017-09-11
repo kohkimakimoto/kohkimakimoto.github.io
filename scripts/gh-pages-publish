@@ -21,7 +21,7 @@ quiet = False
 public_dir = "public"
 branch = "master"
 project_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-commit_message = "Publish to master by the script."
+commit_message = "Publish to master by gh-pages-publish"
 
 # functions
 def debug(s):
