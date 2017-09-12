@@ -6,5 +6,7 @@ Thumbs.db
 .vscode/
 /public
 .vagrant
+node_modules/
+npm-debug.log
 
 !.gitkeep

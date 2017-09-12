@@ -5,6 +5,7 @@
   "scripts": {
     "clean": "rm -rf public",
     "build": "npm run clean && hugo",
+    "serve": "hugo server",
     "publish": "npm run build && ./scripts/gh-pages-publish"
   },
   "repository": {
@@ -16,5 +17,7 @@
   "bugs": {
     "url": "https://github.com/kohkimakimoto/kohkimakimoto.github.io/issues"
   },
-  "homepage": "https://github.com/kohkimakimoto/kohkimakimoto.github.io#readme"
+  "homepage": "https://github.com/kohkimakimoto/kohkimakimoto.github.io#readme",
+  "devDependencies": {
+  }
 }
