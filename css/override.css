@@ -1,0 +1,27 @@
+body {
+    font-family: wf_segoe-ui_normal,HelveticaNeue-Light,Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #444;
+    text-rendering: optimizeLegibility;
+}
+
+.navbar {
+    
+}
+
+.navbar-brand {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    letter-spacing: 1.2px;
+}
+
+.navbar-brand img {
+    margin-right: 5px;
+}
+
+.navbar-toggler {
+    padding: 0 5px;
+}
+
+.bg-costom {
+    background-color: #000000!important;
+}
