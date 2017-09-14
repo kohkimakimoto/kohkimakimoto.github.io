@@ -1,9 +1,9 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>{{ .Title }}</title>
+  {{ partial "metadata.html" . }}
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
   <link rel="stylesheet" href="/css/bootstrap.min.css">
   <link rel="stylesheet" href="/css/override.css">
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -27,9 +27,16 @@
       </div>
     </div>
   </nav>
-  <div class="container">
-
+  <div class="home-jumbotron-section">
+    <div class="container">
+      <h1 class="display-3">Open Source Code.</h1>
+      <p class="lead">...</p>
+    </div>
   </div>
+  <footer>
+    <div class="container">
+    </div>
+  </footer>
 </body>
 
 </html>

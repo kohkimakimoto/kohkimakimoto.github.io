@@ -25,3 +25,30 @@ body {
 .bg-costom {
     background-color: #000000!important;
 }
+
+.home-jumbotron-section {
+    padding-top: 110px;
+    padding-bottom: 60px;
+    background-color: #333333;
+}
+
+.home-jumbotron-section h1 {
+    font-size: 2.9rem;
+    color: white;
+}
+
+.home-jumbotron-section .lead {
+    color: white;
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    min-height: 110px;
+    width: 100%;
+    background-color: #000;
+    font-size: 12px;
+    color: #fff;
+    padding: 25px 0;
+}
