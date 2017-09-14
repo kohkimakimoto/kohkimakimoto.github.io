@@ -40,12 +40,13 @@ def run_command(cmd):
     p = subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     stdout_data, stderr_data = p.communicate()
     if p.returncode != 0:
-        raise RuntimeError(stderr_data)
+        abort("failed to execute command: {}\nstderr: {}".format(cmd, stderr_data))
+        # raise RuntimeError(stderr_data)
     if PY3:
         stdout_data = stdout_data.decode('utf-8')
 
     return stdout_data
-
+    
 # classes for pseudo-namespaces.
 class colors:
     bold = '\033[1m'
