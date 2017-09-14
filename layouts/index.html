@@ -5,7 +5,7 @@
   {{ partial "metadata.html" . }}
   {{ partial "style.html" . }}
   {{ partial "script.html" . }}
-  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" href="/favicon.ico?{{ now.Unix }}">
 </head>
 
 <body>
