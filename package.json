@@ -18,6 +18,8 @@
     "url": "https://github.com/kohkimakimoto/kohkimakimoto.github.io/issues"
   },
   "homepage": "https://github.com/kohkimakimoto/kohkimakimoto.github.io#readme",
-  "devDependencies": {
+  "devDependencies": {},
+  "dependencies": {
+    "octicons": "^6.0.1"
   }
 }
