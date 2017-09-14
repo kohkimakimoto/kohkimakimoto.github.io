@@ -22,6 +22,10 @@ body {
     padding: 0 5px;
 }
 
+.lead {
+    font-size: 1.15rem;
+}
+
 .bg-costom {
     background-color: #000000!important;
 }
@@ -34,6 +38,7 @@ body {
 
 .home-jumbotron-section h1 {
     font-size: 2.6rem;
+    margin-bottom: 20px;
     color: white;
 }
 
