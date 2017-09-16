@@ -98,7 +98,7 @@ The MIT License (MIT)
     global quiet
     quiet = args.quiet
 
-    info("Publishing {} to {}...".format(public_dir, branch))
+    info("Publishing '{}' directory to {} branch...".format(public_dir, branch))
 
     # create temprorary directory
     tempdir = tempfile.mkdtemp(prefix = "gh-pages-publish_")
