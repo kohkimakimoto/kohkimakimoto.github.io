@@ -2,9 +2,7 @@
 
 <head>
   <title>{{ .Title }}</title>
-  {{ partial "metadata.html" . }}
-  {{ partial "style.html" . }}
-  {{ partial "script.html" . }}
+  {{ partial "metadata.html" . }} {{ partial "style.html" . }} {{ partial "script.html" . }}
   <link rel="icon" href="/favicon.ico?{{ now.Unix }}">
 </head>
 
@@ -31,12 +29,54 @@
   </nav>
   <div class="home-jumbotron-section">
     <div class="container">
-      <h1 class="display-3">Open Source Code</h1>
+      <h1 class="display-3">Code</h1>
       <p class="lead">Open source projects are developed and maintained by Kohki Makimoto.</p>
     </div>
   </div>
-  <div>
-      
+  <div class="content-oss-projects">
+    <div class="container">
+      <div class="row">
+        <div class="col-md">
+          <div class="card">
+            <div class="card-body">
+              <h4 class="card-title">Essh</h4>
+              <p class="card-text">Essh is an extended ssh command. If you use essh command instead of ssh, Your SSH operation becomes more efficient and convenient.</p>
+              <a href="#" class="card-link">Repository</a>
+              <a href="#" class="card-link">Website</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="card">
+            <div class="card-body">
+              <h4 class="card-title">Cofu</h4>
+              <p class="card-text">Minimum configuration management tool written in Go.</p>
+              <a href="#" class="card-link">Repository</a>
+              <a href="#" class="card-link">Website</a>              
+            </div>
+          </div>
+        </div>
+        <div class="col-md">
+            <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Crun</h4>
+                  <p class="card-text">Crun (Command-RUN) is a command execution tool. The main feature of crun is to append hook handlers to command execution. It is useful for cron jobs to report their results.</p>
+                  <a href="#" class="card-link">Repository</a>
+                  <a href="#" class="card-link">Website</a>                  
+                </div>
+              </div>    
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md">
+        </div>
+        <div class="col-md">
+
+        </div>
+        <div class="col-md"></div>
+      </div>
+
+    </div>
   </div>
   <footer>
     <div class="container">

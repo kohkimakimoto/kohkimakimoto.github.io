@@ -49,6 +49,14 @@ body {
     color: white;
 }
 
+.content-oss-projects {
+    padding-top: 60px;
+}
+
+.content-oss-projects .row {
+    margin-bottom: 20px;
+}
+
 footer {
     position: absolute;
     left: 0;
