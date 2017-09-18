@@ -1,4 +1,7 @@
+# see http://gohugo.io/overview/configuration/
 baseURL = "https://kohkimakimoto.github.io/"
 languageCode = "en-us"
 title = "Code - Projects are developed and maintained by Kohki Makimoto."
-
+uglyURLs = true
+disableHugoGeneratorInject = true
+disableKinds = ["RSS"]

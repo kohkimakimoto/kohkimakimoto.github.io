@@ -19,7 +19,5 @@
   },
   "homepage": "https://github.com/kohkimakimoto/kohkimakimoto.github.io#readme",
   "devDependencies": {},
-  "dependencies": {
-    "octicons": "^6.0.1"
-  }
+  "dependencies": {}
 }
