@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://kohkimakimoto.github.io/categories/</loc>
+    <loc>https://kohkimakimoto.github.io/categories.html</loc>
     <priority>0</priority>
   </url>
   
@@ -13,7 +13,7 @@
   </url>
   
   <url>
-    <loc>https://kohkimakimoto.github.io/tags/</loc>
+    <loc>https://kohkimakimoto.github.io/tags.html</loc>
     <priority>0</priority>
   </url>
   

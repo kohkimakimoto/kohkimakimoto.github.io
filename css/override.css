@@ -49,10 +49,50 @@ body {
     color: white;
 }
 
+.content-oss-projects {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.content-oss-projects h2 {
+    margin-bottom: 40px;
+    padding-left: 15px;
+    border-left-width: 12px;
+    border-left-color: #000000;
+    border-left-style: solid;
+}
+
+.content-oss-projects .card {
+    margin-bottom: 20px;
+    border-radius: 0;
+    border-color: #555555;
+    background-color: #ffffff;
+
+}
+
+.content-oss-projects .card p {
+    color: #222222;
+}
+
+.content-oss-projects .card h4 {
+    font-weight: bold;
+}
+
+.content-documents {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.content-documents h2 {
+    margin-bottom: 30px;
+    padding-left: 15px;
+    border-left-width: 12px;
+    border-left-color: #000000;
+    border-left-style: solid;
+}
+
+
 footer {
-    position: absolute;
-    left: 0;
-    bottom: 0;
     min-height: 110px;
     width: 100%;
     background-color: #000;
